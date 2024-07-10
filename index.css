@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(216, 187, 143);
+}
+
+.rand-btn{
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(92, 87, 87);
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+}
+
+.movie-img{
+    max-width: 300px;
+    max-height: 600px;
+    text-align: right;
+}
+
+.movie-name{
+    color: rgb(236, 59, 59);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.movie-desc{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+}
