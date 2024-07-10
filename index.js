@@ -4,11 +4,7 @@ async function fetchData(){
     const randNum = Math.floor(Math.random() * 100) + 1;
     const url = `https://imdb-top-100-movies.p.rapidapi.com/top${randNum}`;
     const options = {
-	    method: 'GET',
-	    headers: {
-            'x-rapidapi-key': '6d0a4bbbf1msh5d85b47aef08efdp1ca6cfjsnd62c477eea62',
-            'x-rapidapi-host': 'imdb-top-100-movies.p.rapidapi.com'
-        }
+	    method: 'GET'
     };
 
     try {
